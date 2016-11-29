@@ -25,3 +25,4 @@ class SuperLayer(object):
     def dump(self, path):
         with open(path + self.name + '.params', 'wb') as f:
             cPickle.dump(self.params, f)
+            
