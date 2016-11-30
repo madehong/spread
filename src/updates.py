@@ -1,5 +1,3 @@
-#pylint: skip-file
-#https://github.com/Lasagne/Lasagne/blob/master/lasagne/updates.py
 import numpy as np
 import theano
 import theano.tensor as T
